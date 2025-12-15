@@ -77,13 +77,6 @@ The application works **offline for OCR**, with **optional Gemini AI integration
 
 ---
 
-### 5️⃣ No Mandatory External APIs
-- OCR works completely **offline**
-- Gemini AI is **optional**
-- Application runs even without API key
-
----
-
 ## 🔐 Setting Up API Key (Optional – Gemini AI)
 
 ### Step 1: Create `.env` file
@@ -109,5 +102,6 @@ Step 5 : Open your browswer with this IP "http://127.0.0.1:5000"
 
 ---
  
+
 
 
