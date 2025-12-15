@@ -1,0 +1,28 @@
+Flask==3.0.2
+python-dotenv==1.0.1
+
+# Paddle OCR stack (Windows-compatible with Python 3.12/3.13)
+paddlepaddle==3.2.2
+paddleocr>=2.7.0
+
+# Google Gemini / Generative AI
+google-generativeai==0.3.0
+
+# Image processing, geometry & OCR dependencies
+pillow>=10.0.0
+shapely>=2.0.0
+pyclipper>=1.3.0.post2
+scikit-image>=0.22.0
+imgaug==0.4.0
+lmdb>=1.4.1
+rapidfuzz>=3.0.0
+
+# C++ extension helpers (required by some OCR utilities sometimes)
+cython>=0.29.36
+
+# UI / server helpers
+Werkzeug>=3.0.0
+
+# Optional (but helpful for Windows)
+Polygon3==3.0.9
+lanms-nova==0.0.6
